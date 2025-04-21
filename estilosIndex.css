@@ -1,0 +1,185 @@
+header{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    left: 10;
+    
+
+}
+.titulo{
+    background-color:transparent;
+    width: 100px;
+    height: 10px;   
+    position: relative;
+    top: 20px;
+    left: -140px;
+
+
+}
+
+.buscar{
+
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 60px;
+    left: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+
+
+.boton{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.textoTitulo{
+color: rgb(133, 195, 250);
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 20px;
+text-shadow: 10px 10px 10px black;
+
+}
+
+button{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00DDFF
+
+    );
+    border-radius: 8px;
+    color: rgb(250, 250, 250);
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    top: 50px;
+    left: 10;
+}
+
+button span{
+    background-color: black;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+button:hover span {
+    background: none;
+}
+
+button:active {
+    transform: scale(0.9)
+}
+
+.textoBoton:hover{
+    color: rgb(252, 116, 5);
+    font-size: 20px;
+    border: 4px solid rgb(207, 207, 214);
+    padding: 5px;
+}
+
+nav{
+    background-color: blue;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+
+    text-decoration: none;
+    color: aliceblue; 
+    font-size: 25px;
+}
+
+nav a:hover{
+
+    text-decoration: underline;
+    color: black; 
+    font-size: 26px;
+
+}
+.principal{
+    background-color: darkcyan;
+    width: 100%;
+    height: 350px;
+}
+
+footer{
+background-color: rgb(0, 0, 0);
+width: 100%;
+height: 200px;
+display: flex;
+justify-content: space-around;
+
+}
+
+.textofooter{
+color: rgb(245, 243, 243);
+    
+
+}
+
+
+.textofooter.hover{
+    color: rgb(19, 2, 255);
+        
+    
+    }
+
+.lupa{
+
+    width: 50;
+    height: 50px;
+   
+
+
+}    
+
+.lupa23{
+
+    background-color: rgb(247, 247, 217);
+    width: 50;
+    height: 58px;
+    position: relative;
+    top: 3.5px;
+    left: 400px;
+
+
+}    
+
+
