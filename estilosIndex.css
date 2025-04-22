@@ -13,20 +13,59 @@ header{
     height: 30px;
     position: relative;
     top: 50px;
-    left: 10;
+    left: 150px;
     
 
 }
-.titulo{
-    background-color:transparent;
-    width: 100px;
-    height: 10px;   
+.fondo {
     position: relative;
-    top: 20px;
-    left: -140px;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 40px;
+}
 
+form{
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 450px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    padding-right: 10px;
+}
+
+form input{
+    font-size: 18px;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+form button{
+    background-color: #8c52df;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 2px;
+}
+
+button i{
+    color: #fff;
+    font-size: 18px;
 
 }
+
+
 
 .buscar{
 
@@ -176,5 +215,8 @@ color: rgb(245, 243, 243);
 
 
 }    
+
+
+
 
 
