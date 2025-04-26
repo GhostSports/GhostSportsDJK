@@ -125,6 +125,7 @@ button span{
 
 button:hover span {
     background: none;
+    color:black;
 }
 
 button:active {
