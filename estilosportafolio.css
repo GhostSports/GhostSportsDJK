@@ -1,58 +1,111 @@
 .principalportafolio{
-    background-color: white;
+    background-color: rgb(244, 91, 91);
     width: 100%;
-    height: 550px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.portafolio{
 
-    background-color: white;
-    width: 600px;
-    height: 500px;
+
+
+.PRODUCTOS1{
+
+    width: 990px;
+    height: 750px;
+    background-color: rgb(68, 68, 68);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.pd{
+
+    height: 210px;
+    width: 210px;
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.pd:hover{
+
+    height: 350px;
+    width: 350px;
+    background-color: rgb(54, 60, 107);
     
+
 }
 
-.caja{
-    border: 1px solid black;
-    width: 130px;
-    height: 130px;
-    padding: 15px;
-    margin: 15px ;
+.letra{
+
     
+      opacity: 10%;
+      cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background-color: (54, 60, 107);
+    cursor: pointer;
+    font-size: 5px;
+
+}
+
+.letra:hover{
+
+opacity: 80%;
+color: black;
+font-size: 10px;
+
+
 
 
 }
 
 
 
-.imagen{
 
-    width: 60px;
-    height: 60px;
-}
 
-.imagen:hover{
-   width: 70px;
-   height: 70px;
+.pd1{
 
-}
-
-.caja:hover{
-    border: 2px solid blue;
-}
-
-.p:hover{
-    color: blue;
+    height: 210px;
+    width: 210px;
+    background-color: blanchedalmond;
+    margin: 15px;
+    display: flex;
+    justify-content: center ;
 
 }
 
-.item:hover{
-    border: 2px solid transparent;
+.pd2{
+
+    height: 210px;
+    width: 210px;
+    background-color: blanchedalmond;
+    margin: 15px;
+
+
+}
+
+.pd3{
+
+    height: 210px;
+    width: 210px;
+    background-color: blanchedalmond;
+    margin: 15px;
+
+
+}
+
+.bici{
+
+    height: 100px;
+    width: 150px;    
+
 }
