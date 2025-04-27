@@ -221,10 +221,12 @@ footer {
 }
 
 .contenedor-ingresar {
+    
     position: absolute;
     top: 20px;
     right: 20px;
 }
+
 
 .btn-ingresar {
     background-color: #1a73e8;
@@ -239,6 +241,27 @@ footer {
 }
 
 .btn-ingresar:hover {
+    background-color: #155ab6;
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); 
+}
+ 
+.btn-ingresar2 {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    top: -40px;
+    left: -210px;
+}
+
+.btn-ingresar2:hover {
     background-color: #155ab6;
     transform: scale(1.05);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); 
