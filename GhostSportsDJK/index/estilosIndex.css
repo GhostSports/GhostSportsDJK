@@ -1,0 +1,272 @@
+header {
+    background-color: black;
+    width: 100%;
+    height: 350px; 
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 10px;
+    position: relative;
+}
+
+.logo {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.fondo {
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 450px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    padding-right: 10px;
+}
+
+form input {
+    font-size: 18px;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+form button {
+    background-color: black;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    top: 2px;
+}
+
+button i {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.buscar {
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 60px;
+    left: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.textoTitulo {
+    color: rgb(133, 195, 250);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 20px;
+    text-shadow: 10px 10px 10px black;
+}
+
+button {
+    border: 1px solid white; 
+    background-image: linear-gradient(
+        150deg,
+        rgb(0, 0, 0),
+        rgb(252, 252, 252),
+        black
+    );
+    border-radius: 8px;
+    color: rgb(250, 250, 250);
+    display: flex;
+    font-size: 18px;
+    padding: 4px 12px; 
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+button span {
+    background-color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 255, 255, 0.6); 
+}
+
+button:active {
+    background-color: black;
+    transform: scale(0.95);
+}
+
+.textoBoton:hover {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 4px solid rgb(207, 207, 214);
+    padding: 5px;
+}
+
+nav {
+    background-color: #162736;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.1px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+    font-size: 26px;
+}
+
+.principal {
+    background-color: darkcyan;
+    width: 100%;
+    height: 800px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textofooter {
+    color: rgb(245, 243, 243);
+}
+
+.textofooter.hover {
+    color: rgb(19, 2, 255);
+}
+
+.lupa {
+    width: 50px;
+    height: 50px;
+}
+
+.lupa23 {
+    background-color: rgb(247, 247, 217);
+    width: 50px;
+    height: 58px;
+    position: relative;
+    top: 3.5px;
+    left: 400px;
+}
+
+.botones-principales {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.botones-principales button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botones-principales button:hover {
+    background-color: #555;
+}
+
+.contenedor-ingresar {
+    
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.btn-ingresar {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-ingresar:hover {
+    background-color: #155ab6;
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); 
+}
+ 
+.btn-ingresar2 {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    top: -40px;
+    left: -210px;
+}
+
+.btn-ingresar2:hover {
+    background-color: #155ab6;
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); 
+}
+
+
+
+
