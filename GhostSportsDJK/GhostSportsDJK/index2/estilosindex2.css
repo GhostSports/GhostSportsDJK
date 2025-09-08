@@ -1,0 +1,108 @@
+header{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    border-radius: 100px 50px 50px 100px;
+    opacity: 70%;
+    box-shadow: 5px 5px 5px 5px blue;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.titulo{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+.boton{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.textoTitulo{
+color: aliceblue;
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 20px;
+text-shadow: 10px 10px 10px black;
+
+}
+
+.textoBoton{
+color: aliceblue;
+font-size: 20px;
+border: 2px solid wheat;    
+padding: 5px;
+}
+.textoBoton:hover{
+    color: blue;
+    font-size: 21px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+nav{
+    background-color: blue;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    opacity: 60%;
+
+}
+nav:hover{
+width: 100%;
+opacity: 100%;
+border-radius: 0px 0px 100px 100px;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+
+    text-decoration: none;
+    color: aliceblue; 
+    font-size: 25px;
+}
+
+nav a:hover{
+
+    text-decoration: underline;
+    color: black; 
+    font-size: 26px;
+
+}
+.principal{
+    background-color: darkcyan;
+    width: 100%;
+    height: 350px;
+}
+
+footer{
+background-color: black;
+width: 100%;
+height: 100px;
+display: flex;
+justify-content: space-around;
+
+}
+
+.textofooter{
+color: rgb(255, 255, 255);
+    
+
+}
+
+

@@ -1,0 +1,162 @@
+.principalcontacto {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; 
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animation2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation2 {
+    0% {
+        background-image: url('img/fondillo.png');
+    }
+    100%{
+        background: linear-gradient(90deg,  );
+        background-image: url('img/fondillo.png');
+    }
+}
+
+
+
+
+.contacto{
+    
+   border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 50px;
+    width: 420px;
+    height: 800px;
+    box-shadow: 5px 5px 5px rgb(63, 63, 70);
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);          
+    -webkit-backdrop-filter: blur(10px);  
+}
+@keyframes animation{
+    0%{
+    
+        background: linear-gradient(90deg, );
+        
+    }
+    25%{
+        background: linear-gradient(90deg,  );
+        
+    }
+    50%{
+        background: linear-gradient(90deg,  );
+       
+
+    }
+    100%{
+        background: linear-gradient(90deg,  );
+    
+    }
+
+}
+
+.loguser{
+   position: relative;
+   left: 120px;
+   top: 20px;
+   margin-bottom: 40px;
+   
+}
+
+.cajatexto{
+  
+    display: block;          /* 👈 fuerza que cada input ocupe toda la línea */
+   width: 90%;              /* ocupa casi todo el ancho del formulario */
+   height: 40px;
+   margin: 10px ;       /* margen arriba/abajo y centrado */
+   font-size: 16px;
+   background-color: #fff;
+   color: black;
+   outline: none;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 2px solid rgb(63, 63, 70);
+   border-radius: 5px;      /* opcional, esquinas redondeadas */
+   padding-left: 8px;
+}
+
+.boton{
+ position: relative;
+ left: 30px;
+ top: 5px;
+ width: 260px;
+ padding: 10px;
+ background-color: rgb(0, 0, 0);
+ color: white;
+ border-radius: 50px;
+ cursor: pointer;
+}
+
+.boton:hover{
+    background-color: transparent;
+    color:black;
+}
+
+.boton2{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 260px;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.boton2:hover{
+
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+.textoboton5{
+    position: relative;
+    left: 100px;
+    top: -30px;
+    border-radius: 50px;
+}
+
+.boton{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 260px;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border-color: azure;
+    cursor: pointer;
+
+}
+
+.boton:hover{
+
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Acomoda los inputs en vertical */
+  align-items: center;    /* Centra los inputs dentro del form */
+  gap: 12px;              /* Espaciado entre cada campo */
+  width: 90%;            /* El form ocupa todo el ancho disponible */
+}
